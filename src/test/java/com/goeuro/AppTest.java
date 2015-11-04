@@ -17,7 +17,7 @@ public class AppTest extends TestCase {
 	public void testApp() {
 		try {
 			long start = System.currentTimeMillis();
-			System.setProperty("http.proxyHost", "proxy.starhubsg.sh.inc");
+			System.setProperty("http.proxyHost", "proxy.inc");
             System.setProperty("http.proxyPort", "80");
             
             File result = new File("cities.csv");
